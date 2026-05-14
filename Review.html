@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - RAFI</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { brandBg: '#E6D7C8', brandText: '#2A2A2A' } } } }
+    </script>
+</head>
+
+<body class="bg-brandBg text-brandText antialiased">
+
+    <header class="border-b border-black/10 sticky top-0 bg-brandBg/90 backdrop-blur z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="Home.html" class="text-xl tracking-widest">
+                <div class="flex items-center gap-2">
+                    <p class="font-bold uppercase bodoni-moda-semiBold">RAFI</p>
+                    <p class="bodoni-moda-regular">Athaillah</p>
+                </div>
+            </a>
+            <nav class="hidden md:block">
+                <ul class="flex gap-8 uppercase text-sm tracking-widest">
+                    <li><a href="Home.html" class="hover:opacity-60 transition">Home</a></li>
+                    <li><a href="Collection.html" class="hover:opacity-60 transition">Collection</a></li>
+                    <li><a href="Review.html" class="hover:opacity-60 transition">Review</a></li>
+                </ul>
+            </nav>
+
+            <button id="menu-btn" class="md:hidden block focus:outline-none uppercase text-sm tracking-widest">
+                Menu
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-brandBg border-t border-black/10">
+            <ul class="flex flex-col text-center uppercase text-sm tracking-widest">
+                <li><a href="Home.html" class="block py-4 hover:bg-black/5">Home</a></li>
+                <li><a href="Collection.html" class="block py-4 hover:bg-black/5">Collection</a></li>
+                <li><a href="Review.html" class="block py-4 hover:bg-black/5">Review</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-20 max-w-4xl">
+        <h1 class="text-center text-4xl font-bold uppercase tracking-widest mb-2 bodoni-moda-semiBold">REVIEW</h1>
+        <p class="text-center italic text-black/60 mb-20">Personal notes on fragrance I've worn, experience, and slowly
+            learned to understand.</p>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1Dv_u7mjkCEjVn9QXfSS7fWEHXvLKuUo6"
+                        alt="The Great Batavia" class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">The Great Batavia</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">Project 1945</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Fresh apple opens the scent with a crisp sweetness, soon met by the warm spice of clove. It
+                        feels like stepping into old Batavia—a busy port where fruit, wood, and spice once traveled
+                        across crowded trading routes.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1DuKX3vmwb1vQ1SLarfEOvAsywiCt4WzK"
+                        alt="Di Bawah Pohon" class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Di Bawah Pohon</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">Scent Of Pluto</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        A fresh fougere with a character reminiscent of Ganymede. It opens clean and airy, yet carries a
+                        quiet masculinity. Wearing it feels composed and mature, like standing in the shade, calm but
+                        grounded.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1VfXsHQiuSARtJxRz1cJTiat1T9UlMyS0" alt="November Rain"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">November Rain</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">AMTHRA</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Fresh and gently sweet, like the calm moment after rain under a pale afternoon sky. The scent
+                        feels soft and comforting, bringing a sense of quiet clarity - refreshing without being loud.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1lx_LdjMyHkkIxGQLHOkqlkSDR2PMI9zx" alt="Ares"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Ares</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">VELIXIR</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Bright bergamot opens the fragrance with a clean burst of freshness, followed by subtle woody
+                        notes that keep it grounded. Originally sporty in spirit, but versatile enough for daily wear.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1zvChwbZ75nzQpwqYwpMkO5dUG-R1kQnS" alt="Casa Loma"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Casa Loma</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">BARSTEN</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Sea salt and crisp apple create bright, airy, opening before creamy fig and coconut slowly
+                        emerge. The result feels clean yet soft, kike wearing an all-white outfit - simple, fresh and
+                        quietly refined.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1MbtMd2bwyr2JK6qXL6pUyJxNj07OeOuW" alt="Samosir"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Samosir</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">Project 1945</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Bergamot lifts the opening before jasmine and honeysuckle add soft floral sweetness touched with
+                        honey. Soon, a hint of pepper introduces gentle spice, balancing freshness and warmth in a
+                        versatile scent.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1WY_zjyUmnUOH-TgZpuRWtxWo5HKVNHQm" alt="Aqua Pura"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Aqua Pura</h2>
+                        <h3 class="text-sm tracking-widest text-black/50">Fragrance World</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        A marine scent that goes beyond usual seaside freshness. Instead, it feels like the ocean at
+                        deeper levels - darker, heavier, and more mysterious, where sunlight fades and the water carries
+                        quiet, powerful presence.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1luGQQfJjcBm2_vHWp2lxmQJnlMR9KAKf"
+                        alt="Iron Knight Marine" class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Iron Knight Marine</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">EGOUADE</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        A familiar “magazine paper” accord meets a marine twist, creating something both professional
+                        and unexpectedly fresh. It feels like reading quietly by the shore - clean pages, ocean air, and
+                        a light breeze passing through.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1Mm6HIXVA2QdknC4ZIcq7JwNBmKBpqBNF" alt="Macan Kopling"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Macan Kopling</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">EGOUADE</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        A bold contrast between bright freshness and raw animalic depth. It feels powerful and untamed,
+                        like driving through a sunlit savanna in a leather-seated jeep - warm air, dust, and instinct
+                        moving together.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1LOyllbaBl_5_qJRSKONZcr1CPtzVJZwl" alt="Dirty Rose"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Dirty Rose</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">EGOUADE</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        Rose appears here in a different form - less polished, more grounded. Earthy notes give it a
+                        dusty character, like roses growing directly from soil. Familar yet rougher, softer yet darker.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="space-y-32">
+            <article class="flex flex-col md:flex-row items-center gap-16">
+                <div class="w-full md:w-1/2 flex justify-center">
+                    <img src="https://lh3.googleusercontent.com/d/1QBH0hNtiWrm7Knewd0tbPiTWG2FQ8_AG" alt="Down To Earth"
+                        class="h-[350px] w-auto">
+                </div>
+                <div class="w-full md:w-1/2 space-y-4">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-2xl font-bold tracking-widest bodoni-moda-semiBold">Down To Earth</h2>
+                        <h3 class="text-sm tracking-widest text-black/50 uppercase">MYKONOS</h3>
+                    </div>
+                    <p class="text-sm leading-relaxed text-justify" id="review">
+                        A deeply green scent that feels dense and immersive. Like entering a thick forest after rain,
+                        where leaves, soil, and humidity blend together. Not a light green fragrance, but something
+                        darker and more alive.
+                    </p>
+                    <div class="text-center md:text-left">
+                        <a href="#" class="font-bold uppercase text-[10px] tracking-widest border-b border-black">Full
+                            Review</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

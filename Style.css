@@ -1,0 +1,56 @@
+/* Font */
+.bodoni-moda-regular {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bodoni-moda-medium {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bodoni-moda-semiBold {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.watermark-number {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 18rem; /* Adjust based on your preferred scale */
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.03); /* Extremely faint to act as a watermark */
+    z-index: 0;
+    pointer-events: none;
+    line-height: 1;
+}
+
+#review{
+    font-size: 0.875rem;
+    line-height: calc(1.25/0.875);
+    line-height: relaxed;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+    .watermark-number {
+        font-size: 10rem;
+        top: auto;
+        bottom: -5%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    #review{
+        text-align: center;
+    }
+}
